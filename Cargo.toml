@@ -1,10 +1,11 @@
 [package]
 name = "savagestr"
-version = "0.0.2"
-edition.workspace = true
-authors.workspace = true
-license-file.workspace = true
-repository.workspace = true
+version = "0.0.3"
+edition = "2024"
+authors = ["0xAA55 <838816058@qq.com>"]
+license-file = "LICENSE"
+repository = "https://github.com/0xAA55-rs/savagestr"
+readme = "Readme.md"
 description = "SAVAGE string encoder/decoder. If can encode or decode by specifying the code page or the encoding name, it works, else it uses the savage way to encode/decode by using `String::from_utf8_lossy()`"
 keywords = ["string", "utf8", "mbcs", "i18n"]
 
